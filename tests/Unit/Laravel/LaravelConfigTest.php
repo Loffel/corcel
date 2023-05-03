@@ -1,14 +1,14 @@
 <?php
 
-namespace Corcel\Tests\Unit\Laravel;
+namespace Loffel\Tests\Unit\Laravel;
 
-use Corcel\Tests\TestCase;
+use Loffel\Tests\TestCase;
 use Thunder\Shortcode\Parser\RegularParser;
 
 /**
  * Class LaravelConfigTest
  *
- * @package Corcel\Tests\Unit\Laravel
+ * @package Loffel\Tests\Unit\Laravel
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class LaravelConfigTest extends TestCase

@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Model\Meta\ThumbnailMeta;
-use Corcel\Model\Post;
+use Loffel\Model\Meta\ThumbnailMeta;
+use Loffel\Model\Post;
 
 $factory->define(ThumbnailMeta::class, function (Faker\Generator $faker) {
     return [

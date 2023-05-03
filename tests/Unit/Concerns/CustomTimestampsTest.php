@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Tests\Unit\Concerns;
+namespace Loffel\Tests\Unit\Concerns;
 
 use Carbon\Carbon;
-use Corcel\Concerns\CustomTimestamps;
-use Corcel\Model\User;
-use Corcel\Tests\TestCase;
+use Loffel\Concerns\CustomTimestamps;
+use Loffel\Model\User;
+use Loffel\Tests\TestCase;
 
 class CustomTimestampsTest extends TestCase
 {

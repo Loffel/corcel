@@ -1,19 +1,19 @@
 <?php
 
-namespace Corcel\Tests\Unit\Traits;
+namespace Loffel\Tests\Unit\Traits;
 
-use Corcel\Model;
-use Corcel\Model\Post;
-use Corcel\Model\User;
+use Loffel\Model;
+use Loffel\Model\Post;
+use Loffel\Model\User;
 use Illuminate\Support\Collection;
 
 /**
  * Class HasMetaFieldsTest
  *
- * @package Corcel\Tests\Unit\Traits
+ * @package Loffel\Tests\Unit\Traits
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class HasMetaFieldsTest extends \Corcel\Tests\TestCase
+class HasMetaFieldsTest extends \Loffel\Tests\TestCase
 {
     public function test_it_can_update_meta()
     {

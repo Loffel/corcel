@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Concerns;
+namespace Loffel\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
 use UnexpectedValueException;
@@ -8,7 +8,7 @@ use UnexpectedValueException;
 /**
  * Trait HasMetaFields
  *
- * @package Corcel\Traits
+ * @package Loffel\Traits
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 trait MetaFields
@@ -17,10 +17,10 @@ trait MetaFields
      * @var array
      */
     protected $builtInClasses = [
-        \Corcel\Model\Comment::class => \Corcel\Model\Meta\CommentMeta::class,
-        \Corcel\Model\Post::class => \Corcel\Model\Meta\PostMeta::class,
-        \Corcel\Model\Term::class => \Corcel\Model\Meta\TermMeta::class,
-        \Corcel\Model\User::class => \Corcel\Model\Meta\UserMeta::class,
+        \Loffel\Model\Comment::class => \Loffel\Model\Meta\CommentMeta::class,
+        \Loffel\Model\Post::class => \Loffel\Model\Meta\PostMeta::class,
+        \Loffel\Model\Term::class => \Loffel\Model\Meta\TermMeta::class,
+        \Loffel\Model\User::class => \Loffel\Model\Meta\UserMeta::class,
     ];
 
     /**
@@ -209,7 +209,7 @@ trait MetaFields
     public function getMeta($attribute)
     {
         if ($meta = $this->meta->{$attribute}) {
-            return $meta;
+            return @unserialize($meta);
         }
 
         return null;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model\Meta;
+namespace Loffel\Model\Meta;
 
-use Corcel\Model\Post;
+use Loffel\Model\Post;
 
 /**
  * Class PostMeta
  *
- * @package Corcel\Model\Meta
+ * @package Loffel\Model\Meta
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class PostMeta extends Meta

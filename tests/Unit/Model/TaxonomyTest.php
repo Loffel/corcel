@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Post;
-use Corcel\Model\Taxonomy;
-use Corcel\Model\Term;
+use Loffel\Model\Post;
+use Loffel\Model\Taxonomy;
+use Loffel\Model\Term;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 
@@ -13,7 +13,7 @@ use Illuminate\Support\Collection;
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class TaxonomyTest extends \Corcel\Tests\TestCase
+class TaxonomyTest extends \Loffel\Tests\TestCase
 {
     public function test_it_belongs_to_a_term()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Model\Builder;
+namespace Loffel\Model\Builder;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Builder;
 /**
  * Class PostBuilder
  *
- * @package Corcel\Model\Builder
+ * @package Loffel\Model\Builder
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class PostBuilder extends Builder

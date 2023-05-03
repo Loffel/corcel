@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Model;
+use Loffel\Model;
 
 /**
  * Class TermRelationship.
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class TermRelationship extends Model

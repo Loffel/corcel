@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model\Meta;
+namespace Loffel\Model\Meta;
 
-use Corcel\Model\Comment;
+use Loffel\Model\Comment;
 
 /**
  * Class CommentMeta
  *
- * @package Corcel\Model\Meta
+ * @package Loffel\Model\Meta
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class CommentMeta extends Meta

@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model\Builder;
+namespace Loffel\Model\Builder;
 
 use Illuminate\Database\Eloquent\Builder;
 
 /**
  * Class CommentBuilder
  *
- * @package Corcel\Model\Builder
+ * @package Loffel\Model\Builder
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class CommentBuilder extends Builder

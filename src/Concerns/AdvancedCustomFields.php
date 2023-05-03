@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Concerns;
+namespace Loffel\Concerns;
 
-use Corcel\Acf\AdvancedCustomFields as BaseAdvancedCustomFields;
+use Loffel\Acf\AdvancedCustomFields as BaseAdvancedCustomFields;
 
 /**
  * Trait HasAcfFields
  *
- * @package Corcel\Traits
+ * @package Loffel\Traits
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 trait AdvancedCustomFields

@@ -1,19 +1,19 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
 use Carbon\Carbon;
-use Corcel\Model\Collection\MetaCollection;
-use Corcel\Model\Comment;
-use Corcel\Model\User;
-use Corcel\Model\Post;
+use Loffel\Model\Collection\MetaCollection;
+use Loffel\Model\Comment;
+use Loffel\Model\User;
+use Loffel\Model\Post;
 
 /**
  * Class UserTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class UserTest extends \Corcel\Tests\TestCase
+class UserTest extends \Loffel\Tests\TestCase
 {
     public function test_it_is_instance_of_user()
     {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Corcel\Laravel\Auth;
+namespace Loffel\Laravel\Auth;
 
-use Corcel\Services\PasswordService;
-use Corcel\Model\User;
+use Loffel\Services\PasswordService;
+use Loffel\Model\User;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Support\Arr;
@@ -11,7 +11,7 @@ use Illuminate\Support\Arr;
 /**
  * Class AuthUserProvider
  *
- * @package Corcel\Laravel\Auth
+ * @package Loffel\Laravel\Auth
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */
@@ -122,5 +122,15 @@ class AuthUserProvider implements UserProvider
         $model = Arr::get($this->config, 'model');
 
         return $model ? new $model : new User;
+    }
+
+    /**
+     * Gets the name of the Eloquent user model.
+     *
+     * @return string
+     */
+    public function getModel()
+    {
+        return Arr::get($this->config, 'model');
     }
 }

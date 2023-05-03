@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Contracts;
+namespace Loffel\Tests\Unit\Model\Contracts;
 
-use Corcel\Model\User;
-use Corcel\Tests\TestCase;
+use Loffel\Model\User;
+use Loffel\Tests\TestCase;
 use Illuminate\Contracts\Auth\CanResetPassword;
 
 /**
  * Class CanResetPasswordTest
  *
- * @package Corcel\Tests\Unit\Model\Contracts
+ * @package Loffel\Tests\Unit\Model\Contracts
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class CanResetPasswordTest extends TestCase

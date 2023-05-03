@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Tests\Unit\Laravel\Auth;
+namespace Loffel\Tests\Unit\Laravel\Auth;
 
-use Corcel\Laravel\Auth\AuthUserProvider;
-use Corcel\Model\User;
-use Corcel\Tests\TestCase;
+use Loffel\Laravel\Auth\AuthUserProvider;
+use Loffel\Model\User;
+use Loffel\Tests\TestCase;
 use Illuminate\Support\Str;
 
 class AuthUserProviderTest extends TestCase

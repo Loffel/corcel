@@ -1,8 +1,8 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Post;
+use Loffel\Model\Post;
 use Illuminate\Support\Facades\Event;
 
 /**
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Event;
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class PostTypeTest extends \Corcel\Tests\TestCase
+class PostTypeTest extends \Loffel\Tests\TestCase
 {
     public function test_it_still_has_post_type()
     {

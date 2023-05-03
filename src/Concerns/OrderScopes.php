@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Concerns;
+namespace Loffel\Concerns;
 
 use Illuminate\Database\Eloquent\Builder;
 
 /**
  * Trait OrderedTrait
  *
- * @package Corcel\Traits
+ * @package Loffel\Traits
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 trait OrderScopes

@@ -1,18 +1,18 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Meta;
+namespace Loffel\Tests\Unit\Model\Meta;
 
-use Corcel\Model\Meta\PostMeta;
-use Corcel\Model\Meta\TermMeta;
-use Corcel\Model\Post;
-use Corcel\Model\Term;
+use Loffel\Model\Meta\PostMeta;
+use Loffel\Model\Meta\TermMeta;
+use Loffel\Model\Post;
+use Loffel\Model\Term;
 
 /**
  * Class TermMetaTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class TermMetaTest extends \Corcel\Tests\TestCase
+class TermMetaTest extends \Loffel\Tests\TestCase
 {
     public function test_term_relation()
     {

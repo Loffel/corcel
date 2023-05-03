@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Model\Meta;
+namespace Loffel\Model\Meta;
 
-use Corcel\Model;
-use Corcel\Model\Collection\MetaCollection;
+use Loffel\Model;
+use Loffel\Model\Collection\MetaCollection;
 use Exception;
 
 /**
  * Class Meta
  *
- * @package Corcel\Model\Meta
+ * @package Loffel\Model\Meta
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 abstract class Meta extends Model

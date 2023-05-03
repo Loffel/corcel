@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Concerns;
+namespace Loffel\Concerns;
 
 /**
  * Trait CustomTimestamps
  *
- * @package Corcel\Traits
+ * @package Loffel\Traits
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 trait CustomTimestamps

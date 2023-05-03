@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Comment;
-use Corcel\Model\Post;
+use Loffel\Model\Comment;
+use Loffel\Model\Post;
 
 /**
  * Class CommentTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class CommentTest extends \Corcel\Tests\TestCase
+class CommentTest extends \Loffel\Tests\TestCase
 {
     public function test_it_has_the_correct_instance()
     {

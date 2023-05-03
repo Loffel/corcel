@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Laravel\Auth;
+namespace Loffel\Laravel\Auth;
 
-use Corcel\Services\PasswordService;
+use Loffel\Services\PasswordService;
 use Illuminate\Contracts\Auth\CanResetPassword;
 use Illuminate\Support\Facades\Auth;
 
 /**
  * Trait ResetsPasswords
  *
- * @package Corcel\Laravel\Auth
+ * @package Loffel\Laravel\Auth
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Meta;
+namespace Loffel\Tests\Unit\Model\Meta;
 
-use Corcel\Model\Meta\PostMeta;
-use Corcel\Model\Post;
+use Loffel\Model\Meta\PostMeta;
+use Loffel\Model\Post;
 
 /**
  * Class PostMetaTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class PostMetaTest extends \Corcel\Tests\TestCase
+class PostMetaTest extends \Loffel\Tests\TestCase
 {
     public function test_it_has_correct_instance_type()
     {

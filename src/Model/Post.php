@@ -1,22 +1,22 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Concerns\AdvancedCustomFields;
-use Corcel\Concerns\Aliases;
-use Corcel\Concerns\CustomTimestamps;
-use Corcel\Concerns\MetaFields;
-use Corcel\Concerns\OrderScopes;
-use Corcel\Concerns\Shortcodes;
-use Corcel\Corcel;
-use Corcel\Model;
-use Corcel\Model\Builder\PostBuilder;
-use Corcel\Model\Meta\ThumbnailMeta;
+use Loffel\Concerns\AdvancedCustomFields;
+use Loffel\Concerns\Aliases;
+use Loffel\Concerns\CustomTimestamps;
+use Loffel\Concerns\MetaFields;
+use Loffel\Concerns\OrderScopes;
+use Loffel\Concerns\Shortcodes;
+use Loffel\Corcel;
+use Loffel\Model;
+use Loffel\Model\Builder\PostBuilder;
+use Loffel\Model\Meta\ThumbnailMeta;
 
 /**
  * Class Post
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  * @author Mickael Burguet <www.rundef.com>
  */

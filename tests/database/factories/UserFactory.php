@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Model\User;
+use Loffel\Model\User;
 use Illuminate\Support\Str;
 
 $factory->define(User::class, function (Faker\Generator $faker) {

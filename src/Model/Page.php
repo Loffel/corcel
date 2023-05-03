@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
 use Illuminate\Database\Eloquent\Builder;
 
 /**
  * Class Page
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class Page extends Post

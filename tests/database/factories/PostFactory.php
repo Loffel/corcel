@@ -1,6 +1,6 @@
 <?php
 
-use Corcel\Model\Post;
+use Loffel\Model\Post;
 use Illuminate\Support\Str;
 
 $factory->define(Post::class, function (Faker\Generator $faker) {

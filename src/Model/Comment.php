@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Concerns\CustomTimestamps;
-use Corcel\Concerns\MetaFields;
-use Corcel\Model;
-use Corcel\Model\Builder\CommentBuilder;
+use Loffel\Concerns\CustomTimestamps;
+use Loffel\Concerns\MetaFields;
+use Loffel\Model;
+use Loffel\Model\Builder\CommentBuilder;
 
 /**
  * Class Comment
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class Comment extends Model

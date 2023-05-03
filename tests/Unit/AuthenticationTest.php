@@ -1,10 +1,10 @@
 <?php
 
-namespace Corcel\Tests\Unit;
+namespace Loffel\Tests\Unit;
 
-use Corcel\Laravel\Auth\AuthUserProvider;
-use Corcel\Model\User;
-use Corcel\Services\PasswordService;
+use Loffel\Laravel\Auth\AuthUserProvider;
+use Loffel\Model\User;
+use Loffel\Services\PasswordService;
 use Illuminate\Support\Facades\Auth;
 
 /**
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Auth;
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class AuthenticationTest extends \Corcel\Tests\TestCase
+class AuthenticationTest extends \Loffel\Tests\TestCase
 {
     /** @var PasswordService */
     protected $checker;

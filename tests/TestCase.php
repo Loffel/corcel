@@ -2,11 +2,11 @@
 
 namespace Corcel\Tests;
 
-use Corcel\Laravel\CorcelServiceProvider;
-use Corcel\Model\User;
-use Corcel\Tests\Unit\Model\FakePage;
-use Corcel\Tests\Unit\Model\FakePost;
-use Corcel\Tests\Unit\Model\FakeShortcode;
+use Loffel\Laravel\CorcelServiceProvider;
+use Loffel\Model\User;
+use Loffel\Tests\Unit\Model\FakePage;
+use Loffel\Tests\Unit\Model\FakePost;
+use Loffel\Tests\Unit\Model\FakeShortcode;
 use Illuminate\Contracts\Auth\Authenticatable;
 
 /**

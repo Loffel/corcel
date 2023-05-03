@@ -1,9 +1,9 @@
 <?php
 
-namespace Corcel\Laravel;
+namespace Loffel\Laravel;
 
-use Corcel\Corcel;
-use Corcel\Laravel\Auth\AuthUserProvider;
+use Loffel\Corcel;
+use Loffel\Laravel\Auth\AuthUserProvider;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
 use Thunder\Shortcode\Parser\RegularParser;
@@ -12,7 +12,7 @@ use Thunder\Shortcode\ShortcodeFacade;
 /**
  * Class CorcelServiceProvider
  *
- * @package Corcel\Providers\Laravel
+ * @package Loffel\Providers\Laravel
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */
@@ -34,7 +34,7 @@ class CorcelServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config.php' => base_path('config/corcel.php'),
-        ]);
+        ], 'config');
     }
 
     /**

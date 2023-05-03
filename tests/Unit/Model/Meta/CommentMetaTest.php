@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Meta;
+namespace Loffel\Tests\Unit\Model\Meta;
 
-use Corcel\Model\Comment;
-use Corcel\Model\Meta\CommentMeta;
+use Loffel\Model\Comment;
+use Loffel\Model\Meta\CommentMeta;
 
 /**
  * Class CommentMetaTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class CommentMetaTest extends \Corcel\Tests\TestCase
+class CommentMetaTest extends \Loffel\Tests\TestCase
 {
     public function test_comment_relation()
     {

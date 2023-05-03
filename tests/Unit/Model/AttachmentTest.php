@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Attachment;
+use Loffel\Model\Attachment;
 
 /**
  * Class AttachmentTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class AttachmentTest extends \Corcel\Tests\TestCase
+class AttachmentTest extends \Loffel\Tests\TestCase
 {
     public function test_it_has_aliases()
     {

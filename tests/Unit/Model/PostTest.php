@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
 use Carbon\Carbon;
-use Corcel\Model\Collection\MetaCollection;
-use Corcel\Model\Page;
-use Corcel\Model\Post;
-use Corcel\Model\Taxonomy;
-use Corcel\Model\Term;
-use Corcel\Model\User;
-use Corcel\Shortcode;
+use Loffel\Model\Collection\MetaCollection;
+use Loffel\Model\Page;
+use Loffel\Model\Post;
+use Loffel\Model\Taxonomy;
+use Loffel\Model\Term;
+use Loffel\Model\User;
+use Loffel\Shortcode;
 use Illuminate\Support\Arr;
 use Illuminate\Pagination\Paginator;
 use Thunder\Shortcode\Shortcode\ShortcodeInterface;
@@ -19,7 +19,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class PostTest extends \Corcel\Tests\TestCase
+class PostTest extends \Loffel\Tests\TestCase
 {
     public function test_it_has_the_correct_class_name()
     {

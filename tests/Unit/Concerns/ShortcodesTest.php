@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Tests\Unit\Concerns;
+namespace Loffel\Tests\Unit\Concerns;
 
-use Corcel\Corcel;
-use Corcel\Model;
-use Corcel\Model\Post;
-use Corcel\Tests\TestCase;
+use Loffel\Corcel;
+use Loffel\Model;
+use Loffel\Model\Post;
+use Loffel\Tests\TestCase;
 use Thunder\Shortcode\Parser\ParserInterface;
 use Thunder\Shortcode\Parser\WordpressParser;
 use Thunder\Shortcode\ShortcodeFacade;
@@ -13,7 +13,7 @@ use Thunder\Shortcode\ShortcodeFacade;
 /**
  * Class ShortcodesTest
  *
- * @package Corcel\Tests\Unit\Concerns
+ * @package Loffel\Tests\Unit\Concerns
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class ShortcodesTest extends TestCase

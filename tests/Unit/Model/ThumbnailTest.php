@@ -1,17 +1,17 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Attachment;
-use Corcel\Model\Meta\ThumbnailMeta;
-use Corcel\Model\Post;
+use Loffel\Model\Attachment;
+use Loffel\Model\Meta\ThumbnailMeta;
+use Loffel\Model\Post;
 
 /**
  * Class ThumbnailTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class ThumbnailTest extends \Corcel\Tests\TestCase
+class ThumbnailTest extends \Loffel\Tests\TestCase
 {
     public function test_its_meta_belongs_to_post()
     {

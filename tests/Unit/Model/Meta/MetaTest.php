@@ -1,9 +1,9 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Meta;
+namespace Loffel\Tests\Unit\Model\Meta;
 
-use Corcel\Model\Meta\PostMeta;
-use Corcel\Tests\TestCase;
+use Loffel\Model\Meta\PostMeta;
+use Loffel\Tests\TestCase;
 
 class MetaTest extends TestCase
 {

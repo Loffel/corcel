@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Tests\Unit;
+namespace Loffel\Tests\Unit;
 
-use Corcel\Model\Post;
+use Loffel\Model\Post;
 
 /**
  * Class DatabaseTest
  *
- * @package Corcel\Tests\Unit
+ * @package Loffel\Tests\Unit
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class DatabaseTest extends \Corcel\Tests\TestCase
+class DatabaseTest extends \Loffel\Tests\TestCase
 {
     public function test_it_uses_the_default_database_connection()
     {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Tests\Unit\Laravel\Auth;
+namespace Loffel\Tests\Unit\Laravel\Auth;
 
-use Corcel\Laravel\Auth\ResetsPasswords;
-use Corcel\Model\User;
-use Corcel\Services\PasswordService;
-use Corcel\Tests\TestCase;
+use Loffel\Laravel\Auth\ResetsPasswords;
+use Loffel\Model\User;
+use Loffel\Services\PasswordService;
+use Loffel\Tests\TestCase;
 use Illuminate\Routing\Controller;
 
 class ResetPasswordsTest extends TestCase

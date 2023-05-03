@@ -1,7 +1,7 @@
 <?php
 
-use Corcel\Model\Comment;
-use Corcel\Model\Post;
+use Loffel\Model\Comment;
+use Loffel\Model\Post;
 
 $factory->define(Comment::class, function (Faker\Generator $faker) {
     return [

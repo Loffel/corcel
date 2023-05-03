@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model\Collection;
+namespace Loffel\Model\Collection;
 
 use Illuminate\Database\Eloquent\Collection;
 
 /**
  * Class MetaCollection
  *
- * @package Corcel\Model\Collection
+ * @package Loffel\Model\Collection
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class MetaCollection extends Collection

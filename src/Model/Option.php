@@ -1,14 +1,14 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Model;
+use Loffel\Model;
 use Exception;
 
 /**
  * Option class.
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author José CI <josec89@gmail.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

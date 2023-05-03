@@ -1,11 +1,11 @@
 <?php
 
-use Corcel\Model\Meta\UserMeta;
+use Loffel\Model\Meta\UserMeta;
 
 $factory->define(UserMeta::class, function (Faker\Generator $faker) {
     return [
         'user_id' => function () {
-            return factory(\Corcel\Model\User::class)->create()->ID;
+            return factory(\Loffel\Model\User::class)->create()->ID;
         },
         'meta_key' => $faker->word,
         'meta_value' => $faker->sentence(),

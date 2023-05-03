@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
 /**
  * Class Menu
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Yoram de Langen <yoramdelangen@gmail.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

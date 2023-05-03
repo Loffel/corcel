@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel\Model\Builder;
+namespace Loffel\Model\Builder;
 
 use Illuminate\Database\Eloquent\Builder;
 

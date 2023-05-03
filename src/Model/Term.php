@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Concerns\AdvancedCustomFields;
-use Corcel\Concerns\MetaFields;
-use Corcel\Model;
+use Loffel\Concerns\AdvancedCustomFields;
+use Loffel\Concerns\MetaFields;
+use Loffel\Model;
 
 /**
  * Class Term.
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class Term extends Model

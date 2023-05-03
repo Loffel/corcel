@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Model;
-use Corcel\Model\Builder\TaxonomyBuilder;
-use Corcel\Model\Meta\TermMeta;
+use Loffel\Model;
+use Loffel\Model\Builder\TaxonomyBuilder;
+use Loffel\Model\Meta\TermMeta;
 
 /**
  * Class Taxonomy
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class Taxonomy extends Model

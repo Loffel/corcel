@@ -1,11 +1,11 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
 /**
  * Tag class.
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author Mickael Burguet <www.rundef.com>
  */
 class Tag extends Taxonomy

@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel;
+namespace Loffel;
 
 use Illuminate\Contracts\Foundation\Application;
 

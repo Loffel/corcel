@@ -1,14 +1,14 @@
 <?php
 
-namespace Corcel\Model\Meta;
+namespace Loffel\Model\Meta;
 
-use Corcel\Model\Term;
+use Loffel\Model\Term;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
  * Class TermMeta
  *
- * @package Corcel\Model\Meta
+ * @package Loffel\Model\Meta
  * @author Junior Grossi <juniorgro@gmail.com>
  */
 class TermMeta extends Meta

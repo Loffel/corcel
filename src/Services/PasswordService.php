@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Services;
+namespace Loffel\Services;
 
 use Hautelook\Phpass\PasswordHash;
 
 /**
  * Class PasswordService
  *
- * @package Corcel\Services
+ * @package Loffel\Services
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

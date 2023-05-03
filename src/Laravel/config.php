@@ -43,7 +43,7 @@ return [
     | With Corcel you can register as many shortcodes you want, but that's
     | usually made in runtime. Here it's the place to set all your custom
     | shortcodes to make Corcel registering all of them automatically. Just
-    | create your own shortcode class implementing `Corcel\Shortcode` interface.
+    | create your own shortcode class implementing `Loffel\Shortcode` interface.
     |
     */
 

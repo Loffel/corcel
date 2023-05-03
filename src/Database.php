@@ -1,6 +1,6 @@
 <?php
 
-namespace Corcel;
+namespace Loffel;
 
 use Illuminate\Database\Capsule\Manager as Capsule;
 

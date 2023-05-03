@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model\Meta;
+namespace Loffel\Model\Meta;
 
-use Corcel\Model\User;
+use Loffel\Model\User;
 
 /**
  * Class UserMeta
  *
- * @package Corcel\Model\Meta
+ * @package Loffel\Model\Meta
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

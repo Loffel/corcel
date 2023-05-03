@@ -1,13 +1,13 @@
 <?php
 
-namespace Corcel\Model;
+namespace Loffel\Model;
 
-use Corcel\Concerns\Aliases;
+use Loffel\Concerns\Aliases;
 
 /**
  * Class Attachment
  *
- * @package Corcel\Model
+ * @package Loffel\Model
  * @author José CI <josec89@gmail.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */

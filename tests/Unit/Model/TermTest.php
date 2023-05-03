@@ -1,15 +1,15 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model;
+namespace Loffel\Tests\Unit\Model;
 
-use Corcel\Model\Term;
+use Loffel\Model\Term;
 
 /**
  * Class TermTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class TermTest extends \Corcel\Tests\TestCase
+class TermTest extends \Loffel\Tests\TestCase
 {
     public function test_it_can_create_term_meta()
     {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Corcel\Tests\Unit\Model\Meta;
+namespace Loffel\Tests\Unit\Model\Meta;
 
-use Corcel\Model\Meta\UserMeta;
-use Corcel\Model\User;
+use Loffel\Model\Meta\UserMeta;
+use Loffel\Model\User;
 
 /**
  * Class UserMetaTest
  *
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class UserMetaTest extends \Corcel\Tests\TestCase
+class UserMetaTest extends \Loffel\Tests\TestCase
 {
     public function test_user_relation()
     {

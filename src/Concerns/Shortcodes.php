@@ -1,8 +1,8 @@
 <?php
 
-namespace Corcel\Concerns;
+namespace Loffel\Concerns;
 
-use Corcel\Corcel;
+use Loffel\Corcel;
 use Thunder\Shortcode\Parser\ParserInterface;
 use Thunder\Shortcode\Parser\RegularParser;
 use Thunder\Shortcode\ShortcodeFacade;
@@ -10,7 +10,7 @@ use Thunder\Shortcode\ShortcodeFacade;
 /**
  * Trait ShortcodesTrait
  *
- * @package Corcel\Traits
+ * @package Loffel\Traits
  * @author Mickael Burguet <www.rundef.com>
  * @author Junior Grossi <juniorgro@gmail.com>
  */
