@@ -209,7 +209,8 @@ trait MetaFields
     public function getMeta($attribute)
     {
         if ($meta = $this->meta->{$attribute}) {
-            return @unserialize($meta);
+            $unserialized = @unserialize($meta);
+            return !$unserialized ? $meta : $unserialized;
         }
 
         return null;
